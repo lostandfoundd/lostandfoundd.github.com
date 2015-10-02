@@ -1,0 +1,63 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	/*margin-top: 10px;*/
+	/*text-align: center;*/
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	display: inline-block;
+	*display: inline;IE7 life-saver 
+	padding: 3px 10px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	width: 200px;
+	height: 100px;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+
+
+
+
+/* If PaginationNumbers is true */
+
+
+//To move navigation buttons outside use these settings:
+ 
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+	width: 30px;
+	position: relative;
+  right: 0px;
+  bottom: 270px; 
+    background: url('../images/arrow-left.png');
+    background-repeat: no-repeat;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+	width: 30px;
+	position: relative;
+  right: -1088px;
+  bottom: 270px;
+   background: url('../images/arrow-right.png');
+    background-repeat: no-repeat;
+}
+ 
