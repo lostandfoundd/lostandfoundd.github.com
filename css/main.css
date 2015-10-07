@@ -525,29 +525,114 @@ color:#fff;
 .btn.btn-green-xl:hover,
 .btn.btn-green-xl:focus {
   background: #b9c94c;
-   border-color: #8b9a22;
+  border-color: #8b9a22;
+  color: #fff;
 }
 
-.btn-green-xl:before{
+/*.btn-green-xl:before{
   content:'';
   width: 120px;
   height: 120px;
   left:-140px;
   top:10px;
   position: absolute;
-  background: url('../images/arrow-blue-right.png');
+  background: url('../images/arrow-green-right.png');
   background-repeat: no-repeat;
-}
-.btn-green-xl:after{
+}*/
+/*.btn-green-xl:after{
   content:'';
   width: 120px;
   height: 120px;
   left:306px;
   top:20px;
   position: absolute;
-  background: url('../images/arrow-blue-left.png');
+  background: url('../images/arrow-green-left.png');
+  background-repeat: no-repeat;
+}*/
+
+
+.another-kids div{
+  /*border:1px solid red;*/
+}
+
+.btn-gra{
+  width: 300px;
+  display: inline-block;
+  padding: 0px;
+  margin:0px auto;
+
+}
+.another-kids{
+    /*border:1px solid red;*/
+    /*width: 100%;*/
+  /*display: inline-block;*/
+  /*text-align: center;*/
+  /*margin:0 auto;*/
+}
+.arrow{
+  display: inline-block;
+  height: 70px;
+  width: 150px;
+  /*top: 22px;*/
+  vertical-align: middle;
+}
+
+
+.btn-blue-xl {
+  min-width: 290px;
+  font-size: 18px;
+  color:#fff;
+  background: #0079c7;
+  border-color: #849413;
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  position: relative;
+  margin-bottom:30px; 
+}
+.btn-blue-xl:active{
+border-bottom-width: 2px;
+color:#fff;
+} 
+.btn-blue-xl:hover{
+/*border-bottom-width: 2px;*/
+color:#fff;
+} 
+.btn.btn-blue-xl:hover,
+.btn.btn-blue-xl:focus {
+  background: #b9c94c;
+  border-color: #8b9a22;
+  color: #fff;
+}
+
+.btn-blue-xl:before{
+  content:'';
+  width: 120px;
+  height: 120px;
+  left:-140px;
+  top:10px;
+  position: absolute;
+  background: url('../images/arrow-green-right.png');
   background-repeat: no-repeat;
 }
+/*.btn-blue-xl:after{
+  content:'';
+  width: 120px;
+  height: 120px;
+  left:306px;
+  top:20px;
+  position: absolute;
+  background: url('../images/arrow-green-left.png');
+  background-repeat: no-repeat;
+}
+*/
+
+
+
+
 
 .btn-online-test {
   border-radius: 6px;
@@ -1496,7 +1581,7 @@ height: 90px;
 
 #pricing-adult{
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   background-color: #f7f6f3;
 }
 #pricing-distance{
@@ -1507,7 +1592,7 @@ height: 90px;
 
 #pricing-business{
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 #variant-content-01 ul{
@@ -1561,7 +1646,7 @@ z-index: -999;
 }
 .variant-kids2:after{
 content:'';
-width: 150px;
+width: 160px;
 height: 160px;
 right:-42px;
 top:-55px;
