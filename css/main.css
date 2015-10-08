@@ -346,7 +346,7 @@ font-weight: 600;
 
 
 .section-header--04 .section-title--04 {
-  font-size: 18px;
+  font-size: 16px;
   color: #4977b7;
   text-transform: uppercase;
   position: relative;
@@ -1766,6 +1766,7 @@ background-repeat: no-repeat;
   border:1px solid #c8bfae;
   border-radius:6px;
   /*position: relative;*/
+  /*padding-bottom: 120px;*/
 }
 .variant-kids{
   border:1px solid #C4D64D;
