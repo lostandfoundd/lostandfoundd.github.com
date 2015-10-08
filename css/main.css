@@ -1746,7 +1746,7 @@ background-repeat: no-repeat;
   /*height: 1092px;*/
 }
 .variant-adult{
-  height: 595px;
+  height: 608px;
   border:1px solid #ebe5da;
   border-radius: 5px; 
   z-index: 10;
@@ -1760,7 +1760,7 @@ background-repeat: no-repeat;
   background-color: #ebe5da;
 }
 .variant-inner-adult{
-  /*height: 565px;*/
+  height: 585px;
   background-color: #ebe5da;
   margin: 10px;
   border:1px solid #c8bfae;
