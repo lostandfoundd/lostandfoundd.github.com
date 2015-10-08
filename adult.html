@@ -635,10 +635,15 @@
     <script src="js/ekko-lightbox.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
 
-
-
-
-
+<!-- СКРИПТ ДЕЛАЕТ ЛОГОТИП КЛИКАБЕЛЬНЫМ -->
+<script type="text/javascript">
+container = document.querySelector('.piter');
+container.addEventListener('click', function (e) {
+if ((e.offsetX > container.offsetWidth) || (e.offsetY > container.offsetHeight)) {
+window.location.href = 'index.html';
+}
+});
+</script>
 
 
 

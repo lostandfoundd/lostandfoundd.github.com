@@ -124,11 +124,12 @@ hr {
   background-repeat: no-repeat;
   position:absolute;
   right: 430px;
+  cursor: pointer;
   /*float: left;*/
   top: -30px;
   content: "";
   display: block;
-  height: 231px;
+  height: 193px;
   width: 231px;
   z-index: 9999;
   /*background-size: 35px 20px;*/
@@ -2080,3 +2081,7 @@ overflow: hidden;
 }
 
 
+.under-construction{
+  height: 400px;
+  padding-top: 150px;
+}
