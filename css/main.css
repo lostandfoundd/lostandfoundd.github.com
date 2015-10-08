@@ -1768,6 +1768,15 @@ background-repeat: no-repeat;
   /*position: relative;*/
   /*padding-bottom: 120px;*/
 }
+.variant-inner-distance{
+  height: 552px;
+  background-color: #ebe5da;
+  margin: 10px;
+  border:1px solid #c8bfae;
+  border-radius:6px;
+  /*position: relative;*/
+  /*padding-bottom: 120px;*/
+}
 .variant-kids{
   border:1px solid #C4D64D;
   border-radius: 5px; 
