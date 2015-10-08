@@ -1746,12 +1746,21 @@ background-repeat: no-repeat;
   /*height: 1092px;*/
 }
 .variant-adult{
+  height: 595px;
+  border:1px solid #ebe5da;
+  border-radius: 5px; 
+  z-index: 10;
+  background-color: #ebe5da;
+}
+.variant-distance{
+  height: 575px;
   border:1px solid #ebe5da;
   border-radius: 5px; 
   z-index: 10;
   background-color: #ebe5da;
 }
 .variant-inner-adult{
+  /*height: 565px;*/
   background-color: #ebe5da;
   margin: 10px;
   border:1px solid #c8bfae;
