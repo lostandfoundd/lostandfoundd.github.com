@@ -135,10 +135,18 @@ hr {
   /*background-size: 35px 20px;*/
 }
 
+/*.aabb{
+width: 600px;
+height: 300px;
+border:1px solid red;
+
+}*/
+
 
 .main-nav li{
   display: inline-block;
-  padding-right: 33px;
+  padding-right: 34px;
+  /*margin-left: 2px;*/
   color: #000;
   font-size: 16px;
 
@@ -182,6 +190,7 @@ hr {
   text-transform: uppercase;
 }
 .header-top{
+  width: 1170px;
   /*border:1px solid black;*/
 }
 .header-top1{
@@ -223,6 +232,7 @@ font-weight: 600;
   margin-top: -10px;
 }
 .header-bottom{
+    width: 1170px;
   /*border:1px solid black;*/
   text-align: right;
 }
