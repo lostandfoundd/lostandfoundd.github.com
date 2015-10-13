@@ -1552,7 +1552,9 @@ height: 90px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
+#pricing-kids-2{
+  display: none;
+}
 #pricing-adult{
   padding-top: 40px;
   padding-bottom: 10px;
