@@ -3,8 +3,6 @@
 **************************/
 body {
   width: 100%;
-  /*padding-top: 108px;*/
-  /*background: #fff;*/
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,7 +16,6 @@ h6 {
   font-family: 'Open Sans', sans-serif;
   color: #272727;
 }
-
 
 
 /*5 колонка*/
@@ -103,19 +100,6 @@ hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
-
-.logotip-link{
-  border-radius: 50%;
-  position: absolute;
-  /*background-color: #000;*/
-  left:204px;
-  top: -20px;
-  width: 240px;
-  height: 240px;
-  z-index: 9999;
-  text-align: right;
-  display: inline-block;
-}
 .piter{
   position: relative;
 }
@@ -125,35 +109,21 @@ hr {
   position:absolute;
   right: 430px;
   cursor: pointer;
-  /*float: left;*/
   top: -30px;
   content: "";
   display: block;
   height: 193px;
   width: 231px;
   z-index: 9999;
-  /*background-size: 35px 20px;*/
 }
-
-/*.aabb{
-width: 600px;
-height: 300px;
-border:1px solid red;
-
-}*/
-
-
 .main-nav li{
   display: inline-block;
   padding-right: 38px;
-  /*margin-left: 2px;*/
   color: #000;
   font-size: 16px;
-
 }
 .main-nav a{
   color: #000;
-
 }
 .main-nav a:hover{
   color: #c4d64d;
@@ -1920,55 +1890,145 @@ height:220px;
 .client-01{
   width: 180px;
   height: 100px;
-  background: url('../images/clients/client-01.jpg');
+  background: url('../images/clients/client-01-gr.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
+}
+.client-01:hover{
+  background: url('../images/clients/client-01.png');
 }
 .client-02{
   width: 180px;
   height: 100px;
-  background: url('../images/clients/client-02.jpg');
+  background: url('../images/clients/client-02-gr.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
+}
+.client-02:hover{
+background: url('../images/clients/client-02.png');
 }
 .client-03{
   width: 180px;
   height: 100px;
-  background: url('../images/clients/client-03.jpg');
+  background: url('../images/clients/client-03-gr.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
+}
+.client-03:hover{
+  background: url('../images/clients/client-03.png');
 }
 .client-04{
   width: 180px;
   height: 100px;
-  background: url('../images/clients/client-04.jpg');
+  background: url('../images/clients/client-04-gr.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
+}
+.client-04:hover{
+  background: url('../images/clients/client-04.png');
 }
 .client-05{
   width: 180px;
   height: 100px;
-  background: url('../images/clients/client-05.jpg');
+  background: url('../images/clients/client-05-gr.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
+}
+.client-05:hover{
+  background: url('../images/clients/client-05.png');
 }
 .client-06{
   width: 180px;
   height: 100px;
-  background: url('../images/clients/client-06.jpg');
+  background: url('../images/clients/client-06-gr.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
 }
+.client-06:hover{
+  background: url('../images/clients/client-06.png');
+}
 .client-07{
   width: 180px;
   height: 100px;
-  background: url('../images/clients/client-07.jpg');
+  background: url('../images/clients/client-07-gr.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-07:hover{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-07.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-08{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-08-gr.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-08:hover{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-08.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-09{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-09-gr.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-09:hover{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-09.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-10{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-10-gr.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-10:hover{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-10.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-11{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-11-gr.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-11:hover{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-11.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
@@ -2017,10 +2077,7 @@ height:220px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /*overflow: hidden;*/
- /*border:2px solid black;*/
  display: inline-block;
- /*padding-left: -20px;*/
 }
 
 .adress{
