@@ -485,6 +485,8 @@ font-weight: 600;
   font-size: 18px;
   color:#fff;
   background: #a7b92c;
+  border-radius: 6px;
+  border-bottom: solid 4px green;
   border-color: #849413;
   display: inline-block;
   padding-left: 25px;
