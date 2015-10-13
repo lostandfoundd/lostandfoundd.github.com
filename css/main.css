@@ -1548,12 +1548,20 @@ height: 90px;
   padding-top: 40px;
   padding-bottom: 10px;
 }
+#pricing-kids-main{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
 #pricing-kids{
   padding-top: 40px;
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
 }
 #pricing-kids-2{
   display: none;
+}
+#pricing-kids-abroad{
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 #pricing-adult{
   padding-top: 40px;
@@ -2033,6 +2041,38 @@ background: url('../images/clients/client-02.png');
   width: 180px;
   height: 100px;
   background: url('../images/clients/client-11.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-12{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-12-gr.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-12:hover{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-12.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-13{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-13-gr.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 36px;
+}
+.client-13:hover{
+  width: 180px;
+  height: 100px;
+  background: url('../images/clients/client-13.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 36px;
