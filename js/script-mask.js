@@ -10,12 +10,12 @@
 		
     if(!is_mobile()){
     
-      if($('#user_phone,#user_phone2').exists()){
+      if($('#user_phone,#user_phone2,#user_phone3').exists()){
         
-        $('#user_phone,#user_phone2').each(function(){
+        $('#user_phone,#user_phone2,#user_phone3').each(function(){
           $(this).mask("+7 (999) 999-99-99");
         });
-        $('#user_phone,#user_phone2')
+        $('#user_phone,#user_phone2,#user_phone3')
           .addClass('rfield')
           .removeAttr('required')
           .removeAttr('pattern')
@@ -33,7 +33,7 @@
         setInterval(function(){
         
           if($('#user_phone').exists()){
-            var pmc = $('#user_phone,#user_phone2');
+            var pmc = $('#user_phone,#user_phone2,#user_phone3');
             if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
               pmc.addClass('empty_field');
             } else {
