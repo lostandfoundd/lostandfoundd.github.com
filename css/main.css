@@ -2461,6 +2461,29 @@ input#user_name3::-webkit-input-placeholder {
   background-color: #fff;
   margin: 0 auto;
   margin-top: 10%;
+  padding-left: 30px;
+  padding-top: 10px;
+  /*vertical-align: middle;*/
+}
+#modal-zvonok>.modal-body{
+  border-radius: 6px;
+  width: 660px;
+  height: 330px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 14%;
+  padding-left: 30px;
+  padding-top: 10px;
+  /*vertical-align: middle;*/
+}
+#modal-kids-camp>.modal-body{
+  border-radius: 6px;
+  width: 660px;
+  height: 480px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-left: 30px;
   padding-top: 10px;
   /*vertical-align: middle;*/
 }

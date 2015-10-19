@@ -41,7 +41,7 @@
                           <div class="header-top row">
                               <div class="header-top1 col-md-8"><div class="img-map"><img src="images/ico/icon-19.png" alt=""></div><div class="piter">г. Санкт-Петербург, м. Чкаловская</div></div><a href="index.html"></a>
                               <div class="header-top2 col-md-4"><span class="top-tel">+7(812) 702-72-20</span><br>
-                                <a href=""><div class="top-order">заказать звонок</div></a>  </div>
+                                <a href="#modal-zvonok" data-toggle="modal"role="button"><div class="top-order">заказать звонок</div></a>    </div>
                           </div>
                             
 
@@ -61,7 +61,34 @@
                 <!-- </div>   -->
 
     </div>
-  
+  <!-- МОДАЛЬНОЕ ОКНО ЗАКАЗАТЬ ЗВОНОК-->
+<div id="modal-zvonok" class="modal fade">
+    
+    <div class="modal-body text-center">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="images/ico/x.png" height="19" width="20" alt=""></button>
+        <div class="variant-text text-center section-header--04">
+            <h2 class="section-title--04 text-center"><b>ЗАПИСАТЬСЯ НА ПРОБНЫЙ УРОК</b></h2>
+            <h3 class="base-text-sm-blue-lt">заполните поля форм:</h3>
+
+                   
+        </div>
+
+        <div class="text-center popup-form">
+            <form id="ddd" name="contact-form" method="post" action="#">
+                <ul>
+                     <!-- <li><input type="text" name="name" class="input-place-2" id="user_name3"placeholder="Имя"/></li> -->
+                     <li><input type="tel" required pattern="[0-9_-]{10}" placeholder="Телефон" id="user_phone3" title="Формат: +7 (096) 999 99 99" class="input-place-2"/></li>
+                     <!-- <li class="primer"><i>пример: +7 911 941 21 21</i></li> -->
+                     <li><input type="text" name="name" class="input-place-2" id="user_name3"placeholder="Удобное время для звонка"/></li>
+                     <li><button type="submit" class="btn btn-green-xxl"><b>ОТПРАВИТЬ</b></button></li>
+                </ul>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<!-- /МОДАЛЬНОЕ ОКНО ЗАКАЗАТЬ ЗВОНОК-->
 </header>
 
 
@@ -1473,6 +1500,13 @@ window.location.href = 'index.html';
 });
 </script>
 
+<!-- СКРИПТ МОДАЛЬНОГО ОКНА -->
+<script type="text/javascript">
+$('document').ready(function(){
+$('#modal').modal('false');
+$('#modal-zvonok').modal('false');
+});
+</script>
 
 
 </body>
