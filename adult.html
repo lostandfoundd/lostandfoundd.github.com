@@ -473,10 +473,10 @@
                 <p class="white-text">
                     и мы подберем  пакет обучения, который подойдет именно вам, или составим для вас индивидуальный пакет!
                 </p>
-                     <form action="#">
-                     <input type="text" class="input-place" placeholder="Имя"/>
-                     <input type="text" class="input-place" placeholder="Телефон"/>
-                     <button class="btn btn-green-slim">Отправить</button>
+                      <form id="ddd" name="contact-form" method="post" action="#">
+                     <input type="text" name="name" class="input-place" id="user_name"placeholder="Имя"/>
+                     <input type="tel" required pattern="[0-9_-]{10}" placeholder="Телефон" id="user_phone" title="Формат: +7 (096) 999 99 99" class="input-place"/>
+                     <button type="submit" class="btn btn-green-slim">Отправить</button>
                    </form>
             </div>
    </div><!-- /container -->
@@ -604,6 +604,9 @@
     <script src="js/live.js"></script>
     <script src="js/ekko-lightbox.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/is.mobile.js"></script>
+    <script src="js/script-mask.js"></script>
 
 <!-- СКРИПТ ДЕЛАЕТ ЛОГОТИП КЛИКАБЕЛЬНЫМ -->
 <script type="text/javascript">

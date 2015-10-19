@@ -670,8 +670,8 @@
                     И МЫ ПОДБЕРЕМ ВАМ НАИЛУЧШИЙ ВАРИАНТ, А ТАКЖЕ ПРИГЛАСИМ<br> НА ПРОБНОЕ ЗАНЯТИЕ!
                 </p>
                      <form id="ddd" name="contact-form" method="post" action="#">
-                     <input type="text" name="name" class="input-place" placeholder="Имя"/>
-                     <input type="text" class="input-place " placeholder="Телефон"/>
+                     <input type="text" name="name" class="input-place" id="user_name"placeholder="Имя"/>
+                     <input type="tel" required pattern="[0-9_-]{10}" placeholder="Телефон" id="user_phone" title="Формат: +7 (096) 999 99 99" class="input-place"/>
                      <button type="submit" class="btn btn-green-slim">Отправить</button>
                    </form>
             </div>
@@ -784,7 +784,7 @@
 
 
                  <div class="col-sm-3 col-md-3">
-                    <div class="wow zoomIn variant-kids" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <div class="wow zoomIn variant-kids kids4" data-wow-duration="400ms" data-wow-delay="200ms">
                         <div class="variant-inner-kids">
                                 <div class="variant-image-kids--04">     
                                   
@@ -829,10 +829,10 @@
                 <p class="white-text">
                     И МЫ ПОДБЕРЕМ ВАМ НАИЛУЧШИЙ ВАРИАНТ, А ТАКЖЕ ПРИГЛАСИМ<br> НА ПРОБНОЕ ЗАНЯТИЕ!
                 </p>
-                     <form action="#">
-                     <input type="text" class="input-place" placeholder="Имя"/>
-                     <input type="text" class="input-place" placeholder="Телефон"/>
-                     <button class="btn btn-green-slim">Отправить</button>
+                      <form id="ddd" name="contact-form" method="post" action="#">
+                     <input type="text" name="name" class="input-place" id="user_name"placeholder="Имя"/>
+                     <input type="tel" required pattern="[0-9_-]{10}" placeholder="Телефон" id="user_phone2" title="Формат: +7 (096) 999 99 99" class="input-place"/>
+                     <button type="submit" class="btn btn-green-slim">Отправить</button>
                    </form>
             </div>
    </div><!-- /container -->
@@ -854,10 +854,10 @@
 
                 <div class="col-sm-4 col-xs-6">
 
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                    <div class="useful-item wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
                  
                         <div class="useful-img text-center">
-                        <img src="images/ico/icon-09.png" height="60" width="84" alt="">
+                        <a href="#"><img src="images/ico/icon-09.png" height="60" width="84" alt=""></a>
                         </div> 
 
                         <div class="useful-text ">
@@ -1325,7 +1325,6 @@
     </footer><!--/#footer-->
 
 
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
@@ -1340,6 +1339,10 @@
     <script src="js/live.js"></script>
     <script src="js/ekko-lightbox.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/is.mobile.js"></script>
+    <script src="js/script-mask.js"></script>
+    
 
 
 
@@ -1469,6 +1472,7 @@ window.location.href = 'index.html';
 }
 });
 </script>
+
 
 
 </body>

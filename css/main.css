@@ -1523,6 +1523,10 @@ padding-bottom: 50px;
 padding-top: 40px;
 /*margin-top: 0px;*/
 }
+.useful-item{
+cursor:pointer;
+}
+
 .useful-text{
   padding-top: 10px;
   display: inline-block;
@@ -1770,6 +1774,19 @@ background-repeat: no-repeat;
   border-radius:6px;
   /*position: relative;*/
   /*padding-bottom: 120px;*/
+}
+.kids4 a:before{
+  content:'';
+  width: 200px;
+  height: 200px;
+  /*top:440px;*/
+  /*top:-10px; */
+  /*left:260px;*/
+  /*top:-400px;*/
+  margin-right:-40px;
+  position: absolute;
+  background: url('../images/love.png');
+  background-repeat: no-repeat;
 }
 .kids-text{
   padding-left: 18px;
@@ -2309,3 +2326,37 @@ overflow: hidden;
   height: 400px;
   padding-top: 150px;
 }
+
+input#user_phone:-moz-placeholder {
+  color: #fff;
+}
+input#user_phone::-webkit-input-placeholder {
+  color: #fff;
+}
+#user_phone {
+ 
+  color: #fff;
+  }
+
+input#user_phone2:-moz-placeholder {
+  color: #fff;
+}
+input#user_phone2::-webkit-input-placeholder {
+  color: #fff;
+}
+#user_phone2 {
+ 
+  color: #fff;
+  }  
+
+
+  input#user_name:-moz-placeholder {
+  color: #fff;
+}
+input#user_name::-webkit-input-placeholder {
+  color: #fff;
+}
+#user_name {
+ 
+  color: #fff;
+  }
