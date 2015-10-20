@@ -4,6 +4,7 @@
 body {
   width: 100%;
   font-family: 'Open Sans', sans-serif;
+  /*overflow: hidden;*/
 }
 
 h1,
@@ -1623,10 +1624,17 @@ height: 90px;
 #pricing-kids-main{
   padding-bottom: 40px;
   padding-top: 40px;
+  overflow: hidden;
 }
 #pricing-kids{
   padding-top: 40px;
   /*padding-bottom: 40px;*/
+  /*background: url('../images/dekor.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*position: relative;*/
+  /*top:100px;*/
+  z-index: 4;
+  overflow: hidden;
 }
 #pricing-kids-2{
   display: none;
@@ -1635,10 +1643,11 @@ height: 90px;
 #pricing-kids-abroad{
   padding-bottom: 40px;
   padding-top: 20px;
+  overflow: hidden;
 }
 #pricing-adult{
   padding-top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   background-color: #f7f6f3;
 }
 #pricing-distance{
@@ -1648,8 +1657,70 @@ height: 90px;
 }
 
 #pricing-business{
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.car:after{
+content:'';
+width: 450px;
+height: 260px;
+/*left:-96px;*/
+bottom:-150px;
+left: 300px;
+position: absolute;
+background: url('../images/car.png');
+background-repeat: no-repeat;
+/*z-index: -20;*/
+}
+.cloud:after{
+content:'';
+width: 450px;
+height: 260px;
+/*left:-96px;*/
+top:-40px;
+left: 200px;
+position: absolute;
+background: url('../images/cloud.png');
+background-repeat: no-repeat;
+z-index: -20;
+}
+.soldier:after{
+content:'';
+width: 250px;
+height: 460px;
+/*left:-96px;*/
+top:-50px;
+left: -300px;
+position: absolute;
+background: url('../images/soldier.png');
+background-repeat: no-repeat;
+z-index: -20;
+}
+.telephone-red:after{
+content:'';
+width: 370px;
+height: 460px;
+/*left:-96px;*/
+/*top:-50px;*/
+/*right: 100px;*/
+/*float: right;*/
+position: absolute;
+background: url('../images/telephone-red.png');
+background-repeat: no-repeat;
+/*z-index: -20;*/
+}
+.umbrella:after{
+content:'';
+width: 450px;
+height: 260px;
+/*left:-96px;*/
+bottom:-36px;
+left: -210px;
+position: absolute;
+background: url('../images/umbrella.png');
+background-repeat: no-repeat;
+z-index: -20;
 }
 
 #variant-content-01 ul{
@@ -1675,11 +1746,13 @@ height: 90px;
   color: #4675b8;
   text-decoration: underline;
 }
+
 .variant-inner-kids{
   background-color: #c4d64d;
   margin: 10px;
   border-radius:6px;
   /*position: relative;*/
+  z-index: 3;
 }
 .variant-image-kids--01{
 height: 170px;
@@ -1699,19 +1772,19 @@ top:102px;
 position: absolute;
 background: url('../images/koleso.png');
 background-repeat: no-repeat;
-z-index: -999;
+z-index: -20;
 }
-.variant-kids2:after{
+/*.variant-kids2:after{
 content:'';
-width: 160px;
-height: 160px;
-right:-42px;
-top:-55px;
+width: 650px;
+height: 650px;
+top: -100px;
+right:-200px;
 position: absolute;
-background: url('../images/koleso.png');
+background: url('../images/carousel_lg.png');
 background-repeat: no-repeat;
-z-index: -999;
-}
+z-index: 1;
+}*/
 .variant-image-kids--02{
 height: 170px;
 background: url('../images/variant/kid-variant-02.png');
@@ -1721,6 +1794,7 @@ background-repeat: no-repeat;
 height: 170px;
 background: url('../images/variant/kid-variant-03.png');
 background-repeat: no-repeat;
+z-index: 2;
 }
 .variant-image-kids--04{
 height: 170px;
@@ -1843,15 +1917,15 @@ background-repeat: no-repeat;
   /*position: relative;*/
   /*padding-bottom: 120px;*/
 }
-.kids4 a:before{
+.kids4:before{
   content:'';
   width: 200px;
   height: 200px;
   /*top:440px;*/
-  /*top:-10px; */
-  /*left:260px;*/
+  bottom:-154px; 
+  left:300px;
   /*top:-400px;*/
-  margin-right:-40px;
+  /*margin-right:-110px;*/
   position: absolute;
   background: url('../images/love.png');
   background-repeat: no-repeat;
@@ -1864,13 +1938,13 @@ background-repeat: no-repeat;
 .variant-kids{
   border:1px solid #C4D64D;
   border-radius: 5px; 
-  z-index: 10;
+  z-index: 9999;
 
 }
 .variant-kids1{
   border:1px solid #C4D64D;
   border-radius: 5px; 
-  z-index: 10;
+  z-index: 9999;
 }
 .variant-02{
   border:1px solid #ab2c1b;
