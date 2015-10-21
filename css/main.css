@@ -2602,3 +2602,20 @@ input#user_name3::-webkit-input-placeholder {
   padding-top: 10px;
   /*vertical-align: middle;*/
 }
+
+.order_but {
+bottom: 30%;
+right: 22px;
+position: fixed;
+z-index: 99;
+cursor: pointer;
+color: #ccc;
+width: 50px;
+height: 195px;
+text-align: center;
+/*opacity: .55!important;*/
+transition: opacity .25s ease-in-out;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+}
+
