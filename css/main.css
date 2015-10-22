@@ -1685,7 +1685,7 @@ background: url('../images/love.png');
 background-repeat: no-repeat;
 /*z-index: -20;*/
 }
-.carousel:before{
+.carousel2:before{
 content:'';
 width: 650px;
 height: 660px;
