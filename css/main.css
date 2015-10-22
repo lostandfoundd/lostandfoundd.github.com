@@ -1638,7 +1638,7 @@ height: 90px;
 }
 #pricing-kids-2{
   display: none;
-  padding-top: 30px;
+  padding-top: 90px;
 }
 #pricing-kids-abroad{
   padding-bottom: 40px;
@@ -1673,6 +1673,42 @@ background: url('../images/car.png');
 background-repeat: no-repeat;
 /*z-index: -20;*/
 }
+.love2:after{
+content:'';
+width: 450px;
+height: 260px;
+/*left:-96px;*/
+top:-88px;
+left: -20px;
+position: absolute;
+background: url('../images/love.png');
+background-repeat: no-repeat;
+/*z-index: -20;*/
+}
+.carousel:before{
+content:'';
+width: 650px;
+height: 660px;
+/*left:-96px;*/
+top:-100px;
+left: -100px;
+position: absolute;
+background: url('../images/carousel_lg.png');
+background-repeat: no-repeat;
+z-index: -20;
+}
+.clock:after{
+content:'';
+width: 450px;
+height: 260px;
+/*left:-96px;*/
+top:-60px;
+left: -75px;
+position: absolute;
+background: url('../images/clock.png');
+background-repeat: no-repeat;
+z-index: -2;
+}
 .cloud:after{
 content:'';
 width: 450px;
@@ -1701,9 +1737,9 @@ z-index: -20;
 content:'';
 width: 370px;
 height: 460px;
-/*left:-96px;*/
-/*top:-50px;*/
-/*right: 100px;*/
+left:320px;
+top:0px;
+right: -200px;
 /*float: right;*/
 position: absolute;
 background: url('../images/telephone-red.png');
