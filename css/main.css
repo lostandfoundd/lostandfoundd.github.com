@@ -1702,8 +1702,8 @@ content:'';
 width: 450px;
 height: 260px;
 /*left:-96px;*/
-top:-60px;
-left: -75px;
+top:-80px;
+left: -95px;
 position: absolute;
 background: url('../images/clock.png');
 background-repeat: no-repeat;
@@ -1735,7 +1735,7 @@ z-index: -20;
 }
 .telephone-red:after{
 content:'';
-width: 370px;
+width: 246px;
 height: 460px;
 left:320px;
 top:0px;
