@@ -2646,6 +2646,7 @@ input#phone::-webkit-input-placeholder {
   margin-top: 10%;
   padding-left: 30px;
   padding-top: 10px;
+  z-index:9999;
   /*vertical-align: middle;*/
 }
 #modal-zvonok>.modal-body{
@@ -2657,6 +2658,7 @@ input#phone::-webkit-input-placeholder {
   margin-top: 14%;
   padding-left: 30px;
   padding-top: 10px;
+  z-index: 9999;
   /*vertical-align: middle;*/
 }
 #modal-kids-camp>.modal-body{
@@ -2668,6 +2670,7 @@ input#phone::-webkit-input-placeholder {
   margin-top: 10%;
   padding-left: 30px;
   padding-top: 10px;
+  z-index: 9999;
   /*vertical-align: middle;*/
 }
 
