@@ -161,6 +161,11 @@
 
 <!-- /МОДАЛЬНОЕ ОКНО ЛАГЕРЯ-->
 
+<div class="container">
+<div class="bg"></div><!-- /bg -->
+</div>
+
+
 
 <!-- ДЕТИ -->
     <section id="pricing-kids">
@@ -429,7 +434,6 @@
 
 
 
-
 <!-- РАЗВИВАЮЩИЕ ЗАНЯТИЯ -->
 <section id="pricing-kids">
     <!-- <div class="bgbus"> -->
@@ -528,7 +532,7 @@
 
 
 
-                 <div class="col-sm-3 col-md-3  telephone-red">
+                 <div class="col-sm-3 col-md-3">
                     <div class="wow zoomIn variant-kids" data-wow-duration="400ms" data-wow-delay="200ms">
                         <div class="variant-inner-kids">
                                 <div class="variant-image-kids--04">     
@@ -716,9 +720,9 @@
 
             <div class="row">
 
-                 <div class="col-sm-4 col-md-3 soldier">
+                 <div class="col-sm-4 col-md-3">
                     <div class="wow zoomIn variant-kids" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="variant-inner-kids umbrella">
+                        <div class="variant-inner-kids">
                                 <div class="variant-image-kids--01">     
                                   
                                 </div>
@@ -800,9 +804,9 @@
 
 
 
-                 <div class="col-sm-3 col-md-3 cloud">
+                 <div class="col-sm-3 col-md-3">
                     <div class="wow zoomIn variant-kids" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="variant-inner-kids car">
+                        <div class="variant-inner-kids">
                                 <div class="variant-image-kids--04">     
                                   
                                 </div>
@@ -1022,6 +1026,17 @@ $('#modal-zvonok').modal('false');
 </script>
 
 
+
+<!-- СКРИПТ ПАРАЛЛАКС ЭФФЕКТА -->
+<script type="text/javascript">
+        $(window).scroll(function(e){
+          parallax();
+        });
+        function parallax(){
+          var scrolled = $(window).scrollTop();
+          $('.bg').css('top',-(scrolled*1.5)+'px');
+        }
+    </script>
 
 
 </body>

@@ -1670,18 +1670,7 @@ height: 90px;
   padding-bottom: 40px;
 }
 
-.car:after{
-content:'';
-width: 450px;
-height: 260px;
-/*left:-96px;*/
-bottom:-150px;
-left: 300px;
-position: absolute;
-background: url('../images/car.png');
-background-repeat: no-repeat;
-/*z-index: -20;*/
-}
+
 .love2:after{
 content:'';
 width: 450px;
@@ -1718,55 +1707,10 @@ background: url('../images/clock.png');
 background-repeat: no-repeat;
 z-index: -2;
 }
-.cloud:after{
-content:'';
-width: 450px;
-height: 260px;
-/*left:-96px;*/
-top:-40px;
-left: 200px;
-position: absolute;
-background: url('../images/cloud.png');
-background-repeat: no-repeat;
-z-index: -20;
-}
-.soldier:after{
-content:'';
-width: 250px;
-height: 460px;
-/*left:-96px;*/
-top:-50px;
-left: -300px;
-position: absolute;
-background: url('../images/soldier.png');
-background-repeat: no-repeat;
-z-index: -20;
-}
-.telephone-red:after{
-content:'';
-width: 246px;
-height: 460px;
-left:320px;
-top:0px;
-right: -200px;
-/*float: right;*/
-position: absolute;
-background: url('../images/telephone-red.png');
-background-repeat: no-repeat;
-/*z-index: -20;*/
-}
-.umbrella:after{
-content:'';
-width: 450px;
-height: 260px;
-/*left:-96px;*/
-bottom:-36px;
-left: -210px;
-position: absolute;
-background: url('../images/umbrella.png');
-background-repeat: no-repeat;
-z-index: -20;
-}
+
+
+
+
 
 #variant-content-01 ul{
   /*height: 1000px;*/
@@ -2690,3 +2634,16 @@ transition: opacity .25s ease-in-out;
 -webkit-transition: opacity .25s ease-in-out;
 }
 
+
+
+.bg {
+  background: url('../images/bg-fix.jpg');
+  background-repeat: no-repeat;
+  position: fixed;
+  background-position:top center;
+  width: 100%;
+  height: 1800%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
