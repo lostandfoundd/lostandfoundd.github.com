@@ -78,7 +78,7 @@
 	position: relative;
   right: 40px;
   bottom: 150px; 
-    background: url('../images/arrow-left.png');
+    background: url('../images/arrow-left-blue.png');
     background-repeat: no-repeat;
 }
  
@@ -87,6 +87,6 @@
 	position: relative;
   right: -1130px;
    bottom: 150px; 
-   background: url('../images/arrow-right.png');
+   background: url('../images/arrow-right-blue.png');
     background-repeat: no-repeat;
 }
