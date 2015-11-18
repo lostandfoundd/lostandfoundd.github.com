@@ -18,6 +18,11 @@ h6 {
   color: #272727;
 }
 
+.text-right{
+  /*display: inline-block;*/
+  text-align: right;
+}
+
 .bg-fixed{
   /*width: 1200px;*/
 /*background: url('../images/bg-fix.jpg');*/
@@ -2956,3 +2961,27 @@ display: inline-block;
 .btn.btn-green-course:active {
    border-bottom-width: 2px;
  }
+
+
+ .review-member-course{
+  padding-bottom: 40px;
+  padding-left: 50px;
+ }
+
+ .review-img-course{
+  border-radius:50%;
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  padding: 8px;
+  margin-top: -10px;
+  border: 1px solid #97A72D; 
+/*text-align: center;*/
+}
+
+#reviews-course {
+  /*padding: 50px 0;*/
+  padding-top: 40px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
