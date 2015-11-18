@@ -1208,6 +1208,9 @@ background: transparent;
 .pad20{
   padding-bottom: 20px;
 }
+.pad40{
+  padding-bottom: 40px;
+}
 #work-process {
   /*padding-top:34px;*/
   padding-bottom: 34px;
@@ -2991,5 +2994,9 @@ display: inline-block;
 }
 
 #course-text-1{
+  display: none;
+}
+
+#reviews-course-dop{
   display: none;
 }
