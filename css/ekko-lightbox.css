@@ -60,3 +60,18 @@
 .ekko-lightbox .modal-footer {
   text-align: left;
 }
+
+.modal-body-1{
+  border-radius: 6px;
+  width: 560px;
+  height: 350px;
+  background-color: #fff;
+  margin: 0 auto;
+  /*margin-top: 10%;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index:9999;
+  /*vertical-align: middle;*/
+}
