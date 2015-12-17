@@ -2928,3 +2928,16 @@ display: inline-block;
   padding-bottom: 20px;  
   background-color: #f4f4f4;
 }
+
+.cours-name__time{
+  padding-right: 20px;
+}
+
+.cours-name__group{
+  padding-right: 10px;
+}
+.cours-name-group__title{
+padding-right: 10px;
+/*border: 1px solid black;*/
+width: 490px;
+}
