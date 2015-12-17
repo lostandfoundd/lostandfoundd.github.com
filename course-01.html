@@ -17,7 +17,7 @@
     <link href="css/owl.theme.css" rel="stylesheet">
     <!-- <link href="css/prettyPhoto.css" rel="stylesheet"> -->
     <link href="css/main.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
     <link href="css/responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -596,15 +596,66 @@
             </div>
     <div class="owl-wrapper">
             <div id="owl-gallery" class="owl-carousel owl-theme-gallery">
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
-                  <div class="text-center"><img src="images/gallery/01.png" height="191" width="191" alt=""></div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/01.jpg" class="fancybox">
+                    <img src="images/gallery/01-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/02.jpg" class="fancybox">
+                    <img src="images/gallery/02-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/03.jpg" class="fancybox">
+                    <img src="images/gallery/03-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/01.jpg" class="fancybox">
+                    <img src="images/gallery/01-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/02.jpg" class="fancybox">
+                    <img src="images/gallery/02-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/03.jpg" class="fancybox">
+                    <img src="images/gallery/03-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/01.jpg" class="fancybox">
+                    <img src="images/gallery/01-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/02.jpg" class="fancybox">
+                    <img src="images/gallery/02-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/03.jpg" class="fancybox">
+                    <img src="images/gallery/03-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
+
+                  <div class="text-center">
+                  <a href="images/gallery/01.jpg" class="fancybox">
+                    <img src="images/gallery/01-sm.png" height="191" width="191" alt="">
+                  </a>
+                  </div>
             </div>
     </div>
     </div><!-- container -->
@@ -735,8 +786,15 @@
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/is.mobile.js"></script>
     <script src="js/script-mask.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
     
 
+<!-- СКРИПТ ЛАЙТБОКС ДЛЯ ГАЛЕРЕИ -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>
 
 
 <!-- СКРИПТ РАЗДВИЖНЫХ БЛОКОВ -->
@@ -785,15 +843,6 @@ $(document).ready(function() {
 
 
 
-
-
-<!-- СКРИПТ ЛАЙТБОКС ДЛЯ ВИДЕО-ОТЗЫВОВ -->
-<script>
-    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});
-</script>
 
 
 <!-- СКРИПТ ФИЛЬТРА ПРЕПОДАВАТЕЛЕЙ -->
