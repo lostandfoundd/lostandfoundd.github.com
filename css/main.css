@@ -1289,7 +1289,7 @@ background: transparent;
 #meet-team {
   padding-top: 40px;
   /*margin-bottom: 10px;*/
-  background-color: #DDD9CE;
+  background-color: #F8F6F3;
 }
 #meet-team .team-member {
   /*padding: 13px;*/
@@ -1734,7 +1734,7 @@ input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s eas
 input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 
 #useful{
-background-color: #ebe5da;  
+background-color: #F8F6F3;  
 /*margin: 50px;*/
 padding-bottom: 50px;
 padding-top: 40px;
@@ -2529,7 +2529,7 @@ background: url('../images/clients/client-02.png');
   padding-top: 10px;
   padding-bottom: 10px;
   color: #000;
-  background: #ddd9ce;
+  background: #F8F6F3;
 }
 .footer-top{
   padding-bottom: 30px;
