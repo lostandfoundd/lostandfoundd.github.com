@@ -2935,7 +2935,8 @@ display: inline-block;
 }
 
 .cours-name__time{
-  padding-right: 20px;
+  padding-right: 17px;
+  padding-left: 6px;
 }
 
 .cours-name__group{
