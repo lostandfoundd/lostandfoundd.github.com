@@ -2995,6 +2995,7 @@ width: 490px;
 
 #prav-doc{
   background-color: #c4d64d;
+  /*padding-bottom: 30px;*/
 }
 .pravdoc-text{
   text-align: center;
@@ -3003,7 +3004,16 @@ width: 490px;
 
 .doc-images{
   padding-left: 200px;
+  /*margin-bottom: 140px;*/
+  /*padding-bottom:220px;*/
+
 }
+
+.open-shcool{
+margin-top: 30px;
+/*margin-bottom:30px;*/
+}
+
 .doc-img{
 padding-right: 20px;
 }
