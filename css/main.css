@@ -2782,6 +2782,19 @@ input#phone::-webkit-input-placeholder {
   /*vertical-align: middle;*/
 }
 
+#modal-shcool>.modal-body{
+  border-radius: 6px;
+  width: 660px;
+  height: 330px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 14%;
+  padding-left: 30px;
+  padding-top: 10px;
+  z-index: 9999;
+  /*vertical-align: middle;*/
+}
+
 #modal-kids-camp>.modal-body{
   border-radius: 6px;
   width: 660px;
