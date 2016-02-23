@@ -159,6 +159,12 @@ hr {
   background-repeat: no-repeat;
   background-position-x: 50%;
 }
+.main-nav li.active{
+  color: #c4d64d;
+  background: url('../images/ico/treugol.png');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
 .main-nav li:hover{
   /*color: #c4d64d;*/
 
@@ -3130,6 +3136,18 @@ padding-top: 30%;
   background-color: #ece9e2;
 }
 
+.bg-brown{
+  background-color: #ece9e2;
+}
+
+.bg-white{
+  background-color: #fff !important;
+}
+.students-review{
+  padding-top: 60px;
+  /*padding-bottom: 40px;*/
+  /*background-color: #ece9e2;*/
+}
 .student-video{
   padding: 8px;
   display: inline-block;
@@ -3180,4 +3198,17 @@ padding-top: 30%;
   height: 90px;
   background-image: url('../images/team/01_sm.jpg');
 
+}
+
+.white-text-sm{
+  font-size: 24px;
+  color: #fff;
+  /*text-transform: uppercase;*/
+}
+.height290{
+  height: 290px;
+}
+
+.bg-white{
+  color: #fff important!;
 }
