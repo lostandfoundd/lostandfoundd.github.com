@@ -3221,6 +3221,10 @@ padding-top: 30%;
   padding-left: 64px;
 }
 
+.pad-left-24{
+  padding-left: 84px;
+}
+
 .student-contact{
   /*font-size: 16px;*/
   padding: 8px;
@@ -3249,5 +3253,13 @@ padding-top: 30%;
   float: right;
 }
 .icon-right-block{
-  padding-top: 432px;
+  padding-top: 482px;
+  padding-right: 124px;
+}
+
+.map1,.map2{
+  display: inline-block;
+}
+.map1{
+  padding-right: 20px;
 }
