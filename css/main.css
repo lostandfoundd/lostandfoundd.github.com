@@ -144,6 +144,7 @@ hr {
 .main-nav li{
   display: inline-block;
   padding-right: 14px;
+   padding-left: 28px;
   color: #000;
   font-size: 16px;
 }
@@ -152,7 +153,7 @@ hr {
 }
 .main-nav a:hover{
   color: #c4d64d;
-    background: url('../images/ico/treugol.png');
+  background: url('../images/ico/treugol.png');
   background-repeat: no-repeat;
   background-position-x: 50%;
 }
