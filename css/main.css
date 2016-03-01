@@ -3009,6 +3009,9 @@ width: 490px;
 .pad-top-40{
   padding-top: 40px;
 }
+.pad-top-20{
+  padding-top: 20px;
+}
 .pad-right-120{
   padding-right:120px;
 }
@@ -3265,4 +3268,33 @@ padding-top: 30%;
 }
 .map-text{
   padding-top: 10px;
+}
+
+
+#stati{
+  padding-top: 40px;
+  /*padding-bottom: 40px;*/
+  background-color: #ece9e2;
+}
+#stati-2{
+  padding-top: 40px;
+  /*padding-bottom: 40px;*/
+  /*background-color #fff;*/
+  padding-top: 40px;
+}
+
+.stati-title{
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.dop-stati-link{
+  float: right;
+}
+#dop-stati-1{
+  display: none;
+}
+
+.bg-white{
+  background: #fff;
 }
