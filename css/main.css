@@ -3282,6 +3282,21 @@ padding-top: 30%;
   /*background-color #fff;*/
   padding-top: 40px;
 }
+#stati-3{
+  padding-top: 40px;
+  /*padding-bottom: 40px;*/
+  /*background-color #fff;*/
+  padding-top: 40px;
+  background-color: #ece9e2;
+}
+#stati-4{
+  padding-top: 40px;
+  /*padding-bottom: 40px;*/
+  /*background-color #fff;*/
+  padding-top: 40px;
+  /*background-color: #ece9e2;*/
+}
+
 
 .stati-title{
   padding-left: 80px;
@@ -3290,6 +3305,7 @@ padding-top: 30%;
 
 .dop-stati-link{
   float: right;
+  padding-bottom: 20px;
 }
 #dop-stati-1{
   display: none;
@@ -3297,7 +3313,12 @@ padding-top: 30%;
 #dop-stati-2{
   display: none;
 }
-
+#dop-stati-3{
+  display: none;
+}
+#dop-stati-4{
+  display: none;
+}
 .bg-white{
   background: #fff;
 }
