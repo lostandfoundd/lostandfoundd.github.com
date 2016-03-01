@@ -3019,6 +3019,9 @@ width: 490px;
 .pad-bottom-40{
   padding-bottom:40px;
 }
+.pad-bottom-12{
+  padding-bottom:12px;
+}
 
 #prav-doc{
   background-color: #c4d64d;
@@ -3357,5 +3360,35 @@ padding-top: 30%;
   /*padding-bottom: 40px;*/
   /*background-color #fff;*/
   padding-bottom: 40px;
+}
 
+.teacher-icon-1{
+  /*vertical-align: middle;*/
+  /*padding-top: 20px;*/
+  /*border:1px solid red;*/
+float: left;
+background-image: url('../images/ico/icon-ff-02.png');
+background-repeat:no-repeat;
+height: 20px;
+width: 20px;
+margin-top: 6px;
+margin-right: 4px;
+}
+.teacher-icon-2{
+float: left;
+background-image: url('../images/ico/icon-ff-03.png');
+background-repeat:no-repeat;
+height: 20px;
+width: 20px;
+margin-top: 6px;
+margin-right: 4px;
+}
+.teacher-icon-3{
+float: left;
+background-image: url('../images/ico/icon-ff-04.png');
+background-repeat:no-repeat;
+height: 20px;
+width: 20px;
+margin-top: 8px;
+margin-right: 4px;
 }
