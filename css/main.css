@@ -3323,3 +3323,39 @@ padding-top: 30%;
 .bg-white{
   background: #fff;
 }
+
+#zadacha{
+  background-color: #f7f6f3;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.teacher-img{
+  padding: 4px;
+  display: inline-block;
+  /*margin-left: 20%;*/
+  /*margin-bottom: 50px;*/
+  border:1px solid #a7b92c;
+  /*border-radius:10px;*/
+}
+
+.teacher-title{
+  /*padding-left: 80px;*/
+  /*padding-top: 10px;*/
+  display: inline-block;
+  /*border:1px solid red;*/
+  padding-right: 20px;
+   margin-left: -40px; 
+}
+.dop-teacher-link{
+  float: left;
+  padding-bottom: 20px;
+}
+#teacher-1{
+  padding-top: 40px;
+  /*padding-bottom: 40px;*/
+  /*background-color #fff;*/
+  padding-bottom: 40px;
+
+}
