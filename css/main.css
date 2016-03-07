@@ -3417,3 +3417,89 @@ margin-right: 4px;
   margin-right: -10px;
   margin-top: 4px;
 }
+
+#podcast{
+    padding-bottom: 40px;
+}
+.podcast{
+  padding-left: 20px;
+  margin-left: 155px;
+  margin-right: 155px;
+  height: 50px;
+  border:1px solid #eceae4;
+  overflow: hidden;
+  background: color red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f7f6f3;
+   vertical-align:middle;
+}
+.podcast-title{
+  display: inline-block;
+   /*border:1px solid red;*/
+   /*line-height: 30px;*/
+    /*vertical-align:middle;*/
+    padding-top: 16px;
+
+}
+.podcast-play{
+ display: inline-block;
+ margin-left: 552px;
+ padding-right: 10px;
+ text-align: center;
+ padding-top: 16px;
+ background-color: #f2f1ed;
+ padding-left: 16px;
+ padding-right: 16px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ /*padding-bottom: 22px;*/
+}
+.podcast-more{
+ display: inline-block;
+ background-color: #f2f1ed;
+ /*width: 40px;*/
+ /*height: 40px;*/
+ text-align: center;
+ padding-top: 16px;
+ padding-left: 16px;
+ padding-right: 16px;
+ padding-bottom: 16px;
+ margin-left: -4px;
+}
+#podcast-text-1{
+margin-left: 156px;
+margin-right: 156px;
+padding-top: 10px; 
+display: none;
+}
+
+#podcast-text-2{
+margin-left: 156px;
+margin-right: 156px;
+padding-top: 10px; 
+display: none;
+}
+#podcast-text-3{
+margin-left: 156px;
+margin-right: 156px;
+padding-top: 10px; 
+display: none;
+}
+.podcast-bottom-text{
+margin-left: 158px;
+margin-right: 158px;
+padding-top: 40px; 
+}
+.words-for-study{
+padding-top: 20px;
+}
+
+.words-title{
+  /*margin-left: 20px;*/
+}
+.words{
+  padding-top: 14px;
+  /*margin-left: -15px;*/
+}
