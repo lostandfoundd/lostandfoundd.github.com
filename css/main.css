@@ -2894,6 +2894,7 @@ padding-bottom: 40px;
 }
 .course-text{
   float: right;
+  padding-left: 20px;
 }
 
 .course-footer{
@@ -3180,8 +3181,8 @@ padding-top: 30%;
 }
 
 .student-text{
-  padding-left: 80px;
-  padding-top: 80px;
+  padding-left: 40px;
+  /* padding-top: 80px; */
 }
 
 .student-about{
