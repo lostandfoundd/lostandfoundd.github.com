@@ -3457,12 +3457,13 @@ margin-right: 4px;
    vertical-align:middle;
 }
 .podcast-title{
-  /* display: inline-block; */
+  display: inline-block;
   /* width: 250px; */
    /*border:1px solid red;*/
    /*line-height: 30px;*/
     /*vertical-align:middle;*/
-    padding-top: 16px;
+    /* border-bottom: dashed 1px ; */
+    padding-top: 10px;
 
 }
 .podcast-title:hover{
