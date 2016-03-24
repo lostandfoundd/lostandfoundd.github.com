@@ -3624,3 +3624,51 @@ position: absolute;
   padding-bottom: 60px;
 }
 
+
+#video-lessons{
+  margin: 0 auto;
+}
+
+.video-lesson-buttons{
+  margin: 0 auto;
+
+}
+
+.video-item{
+  /* vertical-align: middle; */
+  margin: 0 auto;
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 10px;
+  background-color: #4675b8;
+  color: #fff;
+}
+.video-item-quantity{
+float: right;
+}
+
+
+.video-lesson-listing{
+  width: 800px;
+  margin: 0 auto;
+}
+.video-item-name{
+ float: left; 
+  }
+
+.video-lesson{
+  border-radius: 10px;
+  border:1px solid #c4d64d;
+  padding: 6px;
+
+}
+ .video-lesson-img{
+  width: 230px;
+  height: 130px;
+ background: url('../images/video-lesson-plashka.jpg'); 
+ -webkit-background-size: 230 130;
+ background-size: 230 130;
+} 
