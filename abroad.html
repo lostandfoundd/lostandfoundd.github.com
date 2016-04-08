@@ -75,11 +75,13 @@
 
 
 
-
+<div class="container">
+<div class="bg"></div><!-- /bg -->
+</div>
 
 
 <!-- ВЗРОСЛЫЕ -->
-    <section id="pricing-adult">
+    <section id="pricing-kids">
         <div class="container">
             <div class="section-header text-center kids-top">
               
@@ -685,6 +687,17 @@ $('#modal').modal('false');
 $('#modal-zvonok').modal('false');
 });
 </script>
+
+<!-- СКРИПТ ПАРАЛЛАКС ЭФФЕКТА -->
+<script type="text/javascript">
+        $(window).scroll(function(e){
+          parallax();
+        });
+        function parallax(){
+          var scrolled = $(window).scrollTop();
+          $('.bg').css('top',-(scrolled*1.5)+'px');
+        }
+    </script>
 
 
 </body>
