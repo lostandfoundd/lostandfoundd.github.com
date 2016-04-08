@@ -3608,6 +3608,7 @@ position: relative;
   width: 1000px;
   height: 10px;
   background-color: #e8f49c;
+  /* z-index: -10; */
 }
 .quest-underline:before{
   content: "";
@@ -3615,7 +3616,7 @@ position: absolute;
   width: 300px;
   height: 10px;
   background-color: #c4d64d;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .question-inner{
