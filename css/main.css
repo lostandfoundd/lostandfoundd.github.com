@@ -1315,6 +1315,13 @@ background: transparent;
   /*text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);*/
 }
 
+.video-checked{
+background-color: #c4d64d !important;
+}
+.video-item:hover{
+background-color: #c4d64d;
+}
+
 .button:active {
   /*box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);*/
 }
@@ -3629,7 +3636,7 @@ position: absolute;
   margin: 0 auto;
 }
 
-.video-lesson-buttons{
+#video-lesson-buttons{
   margin: 0 auto;
 
 }
