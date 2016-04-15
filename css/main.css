@@ -3862,6 +3862,7 @@ input::-webkit-input-placeholder { color: #000; }
 }
 
 .course-filter-button{
+  outline: none;
   font-size: 16px;
   margin-right: 6px;
   border-radius: 4px;
