@@ -3785,3 +3785,72 @@ padding-top: 6px;
   
 input::-moz-placeholder { color: #000; }
 input::-webkit-input-placeholder { color: #000; }
+
+
+.filter-button{
+  display: inline-block;
+  overflow: hidden;
+
+}
+.flag-link{
+  /* border:1px solid red; */
+ /* line-height: 20px; */
+  padding-left: 6px;
+  display: inline-block;
+
+}
+.flag-1{
+  vertical-align: middle;
+  /* border:1px solid red; */
+  display: inline-block;
+  width: 22px;
+  height: 22px; 
+  background-image: url(../images/ico/flag-1.png);
+  background-repeat: no-repeat;
+}
+
+.flag-2{
+  vertical-align: middle;
+  display: inline-block;
+  width: 22px;
+  height: 22px; 
+  background-image: url(../images/ico/flag-2.png);
+  background-repeat: no-repeat;
+}
+
+.flag-3{
+  vertical-align: middle;
+  display: inline-block;
+  width: 22px;
+  height: 22px; 
+  background-image: url(../images/ico/flag-3.png);
+  background-repeat: no-repeat;
+
+}
+
+.flag-4{
+  vertical-align: middle;
+  display: inline-block;
+  width: 22px;
+  height: 22px; 
+  background-image: url(../images/ico/flag-4.png);
+  background-repeat: no-repeat;
+}
+
+/* .flag-5{
+  vertical-align: middle;
+  display: inline-block;
+  width: 22px;
+  height: 22px; 
+  background-image: url(../images/ico/flag-5.png);
+  background-repeat: no-repeat;
+} */
+
+.abroad-filter{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 80px;
+  /* height: 50px; */
+  width: 100%;
+  background-color: #ebe5da;
+}
