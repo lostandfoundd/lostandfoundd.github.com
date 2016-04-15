@@ -3850,7 +3850,22 @@ input::-webkit-input-placeholder { color: #000; }
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 80px;
-  /* height: 50px; */
   width: 100%;
   background-color: #ebe5da;
+}
+
+
+.course-filter-buttons{
+  padding-left: 140px;
+  padding-bottom: 14px;
+  width: 860px;
+}
+
+.course-filter-button{
+  font-size: 16px;
+  margin-right: 6px;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  background-color: #ebe5da;
+  display: inline-block;
 }
