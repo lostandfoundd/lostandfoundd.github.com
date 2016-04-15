@@ -3730,6 +3730,29 @@ padding-top: 6px;
   /* color: #000; */
   margin-bottom: 16px;
 }
+.search-form-2{
+   /* margin: 0 auto; */
+/* border:1px solid red; */
+border-radius: 4px;
+padding-top: 6px;
+  width: 800px;
+  background-color: #f7f6f3;
+  /* color: #000; */
+  margin-bottom: 16px;
+}
+
+
+.search-form-2 input[type="submit"] {
+  float: right;
+  margin-right: 10px;
+    /* padding-right: 10px; */
+    outline: none;
+    width: 26px; /* Ширина кнопки */
+    height: 24px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../images/ico/search-icon.png) no-repeat 50% 50%; /* Параметры фона */
+   }
+
 
 
 .search {
