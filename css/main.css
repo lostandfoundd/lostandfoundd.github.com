@@ -3486,14 +3486,18 @@ margin-right: 4px;
 }
 .podcast{
   margin: 0 auto;
+  /* margin-bottom: 10px; */
       /* padding-bottom: 10px; */
       /* padding-top: 10px; */
   width: 700px;
   padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   /* margin-left: 155px; */
   /* margin-right: 155px; */
   /* margin-right: 155px; */
   /* height: 320px; */
+  /* vertical-align: middle; */
   border:1px solid #eceae4;
   overflow: hidden;
   background: color red;
@@ -3503,16 +3507,43 @@ margin-right: 4px;
   background-color: #f7f6f3;
    vertical-align:middle;
 }
+
 .podcast-title{
   display: inline-block;
+  /* padding-bottom: 10px; */
   /* width: 250px; */
-   /*border:1px solid red;*/
-   /*line-height: 30px;*/
+   /* border:1px solid red; */
+   line-height: 40px;
     /*vertical-align:middle;*/
     /* border-bottom: dashed 1px ; */
-    padding-top: 10px;
-
+    /* padding-top: 20px; */
+    /* padding-bottom: 10px; */
+    /* vertical-align: middle; */
 }
+
+.podcast-track{
+  /* border:1px solid red; */
+  display: inline-block;
+  /* padding-top: 8px; */
+  vertical-align: middle;
+  padding-left: 20px;
+  /* padding-right: 40px; */
+}
+
+.podcast-more{
+  /* padding-bottom: 10px; */
+  /* padding-left:10px; */
+}
+.podcast-track{
+  width: 400px;
+  margin-right: 54px;
+}
+
+.podcast-track audio{
+
+  width: 430px;
+}
+
 .podcast-title:hover{
   color:#BFDC40;
 }
@@ -3683,3 +3714,51 @@ float: right;
  -webkit-background-size: 230 130;
  background-size: 230 130;
 } 
+
+
+
+
+
+/* ПОИСК */
+.search-form{
+   margin: 0 auto;
+/* border:1px solid red; */
+border-radius: 4px;
+padding-top: 6px;
+  width: 700px;
+  background-color: #f7f6f3;
+  /* color: #000; */
+  margin-bottom: 16px;
+}
+
+
+.search {
+    width: 400px; /* Ширина поля с кнопкой */
+    border: 2px solid red; /* Параметры рамки */
+    min-height: 20px; /* Минимальная высота */
+
+   }
+   input[type="search"] {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #f7f6f3;
+    border: none;
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 666px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+   }
+
+   input[type="submit"] {
+    /* padding-right: 10px; */
+    outline: none;
+    width: 26px; /* Ширина кнопки */
+    height: 24px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../images/ico/search-icon.png) no-repeat 50% 50%; /* Параметры фона */
+   }
+
+
+  
+input::-moz-placeholder { color: #000; }
+input::-webkit-input-placeholder { color: #000; }
