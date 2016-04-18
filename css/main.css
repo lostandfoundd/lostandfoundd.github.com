@@ -2844,6 +2844,19 @@ input#phone::-webkit-input-placeholder {
   /*vertical-align: middle;*/
 }
 
+#modal-spring>.modal-body{
+  border-radius: 6px;
+  width: 700px;
+  height: 600px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-left: 30px;
+  padding-top: 10px;
+  z-index: 9999;
+  /*vertical-align: middle;*/
+}
+
 #modal-shcool>.modal-body{
   border-radius: 6px;
   width: 660px;
@@ -3752,6 +3765,40 @@ padding-top: 6px;
     border: none; /* Убираем рамку */
     background: url(../images/ico/search-icon.png) no-repeat 50% 50%; /* Параметры фона */
    }
+
+
+
+
+.search-form-stati{
+   /* margin: 0 auto; */
+/* border:1px solid red; */
+border-radius: 4px;
+padding-top: 6px;
+margin-left: 46px;
+  width: 1090px;
+  background-color: #fff;
+  /* color: #000; */
+  margin-bottom: 16px;
+}
+
+.search-form-stati input[type="submit"] {
+  float: right;
+  margin-right: 10px;
+    /* padding-right: 10px; */
+    outline: none;
+    width: 26px; /* Ширина кнопки */
+    height: 24px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background-color: #fff;
+   }
+
+.search-form-stati  input[type="search"] {
+
+    background-color: #fff;
+   }
+
+
+
 
 
 
