@@ -2921,7 +2921,9 @@ transition: opacity .25s ease-in-out;
 -webkit-transition: opacity .25s ease-in-out;
 }
 
-
+.pad-top-minus{
+  padding-top:-10px; 
+}
 
 .bg {
   background: url('../images/bg-fix.jpg');
