@@ -1888,6 +1888,28 @@ height: 90px;
   padding-bottom: 40px;
   background-color: #f7f6f3;
 }
+
+#pricing-business{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+#pricing-adult-2{
+  display: none;
+    padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f7f6f3;
+}
+
+#pricing-business-2{
+  display: none;
+    padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+
 #pricing-distance{
   padding-top: 30px;
   padding-bottom: 40px;
@@ -3916,4 +3938,8 @@ input::-webkit-input-placeholder { color: #000; }
   padding: 10px 30px 10px 30px;
   background-color: #ebe5da;
   display: inline-block;
+}
+
+.bg-color-beige{
+  background-color: #F7F6F3;
 }
